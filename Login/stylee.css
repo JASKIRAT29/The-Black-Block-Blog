@@ -55,8 +55,14 @@ margin: 20px 0 70px 0;
     width: 50%;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 .textboxtop{
-    width: 90%;
+    width: 50%;
     border-bottom: 1px solid #666666;
 }
 
