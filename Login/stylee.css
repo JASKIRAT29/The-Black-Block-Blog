@@ -52,11 +52,6 @@ img{
     left: 65px;
 }
   
-
-
-
-
-
 .row::after{
     content: "";
     display: table;
