@@ -2,9 +2,9 @@ const { Model, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
 
-class Project extends Model {}
+class Post extends Model { }
 
-Project.init(
+Post.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -15,25 +15,25 @@ Project.init(
     title: {
       type: DataTypes.STRING,
       allowNull: false,
-      },
-    post_text: {
-        type: DataTypes.INTEGER,
-        allowNull:false,
-        },
-      user_id: {
-        type: DataTypes.INTEGER,
-        references: {
-          model: 'user',
-          key: 'id',
-        }
-      }
     },
+    content: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    user_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'id',
+      }
+    }
+  },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName:'project',
+    modelName: 'post',
   }
 );
-module.exports = Project;
+module.exports = Post;
