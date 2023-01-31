@@ -28,26 +28,26 @@ const postData = [
   },
   {
     title: 'Fall Colors',
-    gallery_id: 6,
+    user_id: 6,
     content:'Trees with red, orange, yellow leaves reflected on a still lake.',
   },
   {
     title: 'Autumn Mountains',
-    user_id: 7,
+    user_id: 6,
     content:'Mountains with red and yellow leaves against a background of hazy rolling hills.',
   },
   {
     title: 'Frozen River',
-    gallery_id: 8,
+    user_id: 4,
     content:'Trees with white frozen branches reflected on a frozen river against a light pink sky.',
   },
   {
     title: 'Winter Home',
-    user_id: 4,
+    user_id: 5,
     content:'Log cabin blanketed in heavy white snow with tall snow covered pine trees in the background.',
   },
 ];
 
-const seedPaintings = () => Painting.bulkCreate(paintingdata);
+const seedPost = () => Post.bulkCreate(postData);
 
-module.exports = seedPaintings;
+module.exports = seedPost;
