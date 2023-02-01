@@ -1,46 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Login/stylee.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <title>Signup/login</title>
-</head>
-<body>
-    <div class="container">
-        <div class="signup-box">
-           <div class="tittle">
-            Create Account
-        </div>
-        <img src="Black.png" alt="">
-        <div class="row">
-            <div class="col">
-                <div class="textboxtop">
-                    <input type="text" placeholder="Firstname">
+<div class="login-form justify-content-center d-flex">
+  <form class="col-6" id="login-form">
 
-                </div>
-            </div class="col">
-            <div class="textboxtop">
-                <input type="text" placeholder="Lastname">
-               </div>
-          </div>
-             <div class="textbox">
-        <input type="text" placeholder="Email">
+    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+{{!-- Email --}}
+    <div class="form-floating">
+      <input type="email" class="form-control" id="email-login" placeholder="name@example.com"/>
+      <label for="floatingInput">Email address</label>
+    </div>
+
+{{!-- Password --}}
+    <div class="form-floating">
+      <input type="password" class="form-control" id="password-login" placeholder="Password"/>
+      <label for="floatingPassword">Password</label>
+    </div>
+
+{{!-- Buttons --}}
+    <button id="login-btn" class="w-100 btn btn-md btn-primary" type="submit">Sign in</button>
+    {{!-- <button id="signup-btn" class="w-100 btn btn-md btn-secondary" type="button">Sign up</button> --}}
+  </form>
+
+</div>
+
+{{!-- Duplicate?????  --}}
+ {{!-- <div class="login-card">
+    <h2 class="page-title">Signup</h2>
+    <form class="form signup-form">
+      <div class="form-group">
+        <label for="name-signup">Name:</label>
+        <input class="form-input" type="text" id="name-signup" />
       </div>
-     <div class="textbox">
-        <input type="password" placeholder="Password">
+      <div class="form-group">
+        <label for="email-signup">Email:</label>
+        <input class="form-input" type="text" id="email-signup" />
       </div>
-      <div class="textbox">
-        <input type="password" placeholder="Re-type Password">
-        </div>
-       <div class="button" align="center">
-      <input type="button" value="SIGN UP">
-    </div> 
+      <div class="form-group">
+        <label for="password-signup">Password:</label>
+        <input class="form-input" type="password" id="password-signup" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">signup</button>
+      </div>
+    </form>
+  </div> --}}
 
-</body>
 
-</html>
+
+<script src="../public/js/login.js"></script>
+{{!-- <script src="../public/js/logout.js"></script> --}}
+
+
