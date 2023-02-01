@@ -4,7 +4,6 @@ const { response } = require('express');
 const withAuth = require('../../utils/auths');
 
 // GET comemnt route
-// GET comemnt route
 router.get('/', withAuth, (req, res) => {
   Comment.findAll()
     .then(dbCommentData => res.json(dbCommentData))

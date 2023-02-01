@@ -7,7 +7,8 @@ main {
   padding: 2% 4%;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   padding: 0;
   margin: 0;
@@ -15,9 +16,10 @@ body, html {
   color: rgb(104, 102, 102);
 }
 
-a, h1 {
+a,
+h1 {
   text-decoration: none;
-  color: rgb(153, 33, 233);
+  color: rgb(0, 0, 0);
   font-weight: bold;
   transition: color .1s;
   margin-left: 25px;
@@ -42,13 +44,15 @@ button:hover {
   background-color: rgb(104, 102, 102);
 }
 
-textarea, input {
+textarea,
+input {
   padding: .5%;
   border-radius: 5px;
   border: 1px solid rgb(179, 178, 178);
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
   outline: none;
   border: 1px solid rgb(153, 33, 233);
 }
@@ -58,7 +62,7 @@ textarea {
   min-height: 100px;
 }
 
-form > div {
+form>div {
   margin-bottom: 2%;
 }
 
@@ -121,9 +125,10 @@ main {
 .post {
   margin-bottom: 2%;
   line-height: 150%;
-  border: 3px solid rgb(104, 102, 102);
-  border-radius: 8px;
-  width: 80%;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
 }
 
 .title {
@@ -131,7 +136,7 @@ main {
 }
 
 .post .title span {
-  margin: 2%;
+  margin: 1%;
   font-style: italic;
   font-size: 90%;
   color: rgb(179, 178, 178);
