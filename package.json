@@ -27,7 +27,8 @@
     "express-session": "^1.17.3",
     "express-sessions": "^1.0.6",
     "mysql2": "^3.1.0",
-    "sequelize": "^6.28.0"
+    "sequelize": "^6.28.0",
+    "serve": "^14.1.2"
   },
   "homepage": "https://github.com/seper56/The-Black-Block-Blog#readme"
 }

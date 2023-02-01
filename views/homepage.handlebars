@@ -1,26 +1,7 @@
-{{#each posts as |post|}}
-
- <!-- Page content-->
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-lg-8">
-                <!-- Post header-->
-                <header class="mb-4">
-                    <!-- Post title-->
-                    <h1 class="fw-bolder mb-1">Welcome to Blog Post!</h1>
-                </header>
-                <!-- Post content; User-->
-                <div class="col-4">
-                    <p class="blogCreate text-right">Created by {{post.user.username}} on {{format_date post.date_created}}</p>
-                </div>
-			</div>
-                {{!-- Body --}}
-                <div class="blogDesc">
-                    <p class="text-center blogDescMain">{{post.description}}</p>
-                </div>
-        </div>
-  </div>
-                   
-{{/each}}
-               
-       
+<ul class="post-list">
+  {{#each posts as |post|}}
+  <li>
+    {{> post-info post}}
+  </li>
+  {{/each}}
+</ul>
