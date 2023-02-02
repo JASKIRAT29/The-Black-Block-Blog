@@ -1,13 +1,16 @@
-<article class="post">
-    <div class="title">
-        <h2>{{title}}</h2> <br>
-        <p>{{post_text}}</p> <br>
-        <p>By: {{user.username}}</p>
-        <span>{{format_date created_at}}</span>
+<div class="card mb-4 post">
+    <div class="card-header">
+        <h2>{{title}}</h2>
     </div>
-    
+    <div class="card-body">
+        <p>{{post_text}}</p>
+    </div>
+    <p>By: {{user.username}}</p>
+    <span>{{format_date created_at}}</span>
+
+    <a class="btn btn-primary" href="/post/{{id}}">Read more →</a>
+
     <div class="meta">
         <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
     </div>
-
-</article>
+</div>
