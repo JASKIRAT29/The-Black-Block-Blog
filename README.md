@@ -1,29 +1,78 @@
-# The-Black-Block-Blog
-## User Story
-###### AS A DEVELOPER who write about tech
-###### I WANT a front-end & back-end website that uses the latest technologies
-###### SO THAT I can publish articles, blog-site, and my thoughts and opinions
-######
+# Travel Blog
+        
+## 🌟[Description](#table-of-contents)
+Travel blog is an online travel journal complete with travel stories, photographs and video that document travelers’ experiences and enables them to share those experiences  with friends and family members, other travelers and even strangers they meet online.
 
 
-## Acceptance Criteria
-###### GIVEN a functional Express.js API
-###### WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-###### THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in
-###### WHEN I click on the homepage option
-###### THEN I am prompted to either sign up or sign in
-###### WHEN I choose to sign up
-###### THEN I am prompted to create a username and password
-###### WHEN I click on the sign-up button
-###### THEN I am able to connect to a database using Sequelize
-###### THEN my server is started and the Sequelize models are synced to the MySQL database
-###### WHEN I open API GET routes in Insomnia Core for create,update
-###### THEN the data for each of these routes is displayed in a formatted JSON
-###### WHEN I test API POST, PUT routes in Insomnia Core
-###### THEN I am able to successfully create, update data in my database
-######
+<p>
+    <img src="https://img.shields.io/badge/license-MIT-yellow"/>
+    <img src="https://img.shields.io/badge/-node.js-orange" />
+    <img src="https://img.shields.io/badge/-express.js-red" />
+    <img src="https://img.shields.io/badge/-Inquirer.js-brightgreen" />
+    <img src="https://img.shields.io/badge/-Sequelize-blue" />
+    <img src="https://img.shields.io/badge/-MYSql-green" />
+    <img src="https://img.shields.io/badge/-handlebars-red" />
+</p>
+
+## Table-of-Contents
+* [Description](#description)
+* [Submission](#User-Stor)
+* [Mock-Up](#Mock-Up)
+* [Installation](#installation)
+* [License](#License)
+* [Contributing](#contributing)
+* [FAQs](#faqs)
+  
+## 🚀 [Submission](#table-of-contents)
+
+Deployed app: https://jazzykr29.herokuapp.com/
+Github Page: https://github.com/JASKIRAT29/Travel-Blog
 
 
+## 📺 [Mock-Up](#table-of-contents)
+
+![Image](./public/images/screnshort.png)
+
+## ⚙️ [Installation](#table-of-contents)
+Use your terminal to clone or download or copy the zip file to a directory of your choice. Then open the file in VS Code or whatever editor you use. In VS Code, open the terminal and navigate to e-commerce-back-end in the root directory. 
+``` 
+npm i
+``` 
+Run the following command at the root of your project and answer the prompted questions:
+``` 
+mysql -u root -p
+``` 
+Enter PW when promted
+``` 
+source db/schema.sql
+quit
+npm run seed
+npm start
+```        
+## 📑 [License](#table-of-contents)
+<img src="https://img.shields.io/badge/license-MIT-yellow"/>
+
+Your repository is licensed under an mit open source license, so other people can contribute more easily.More information can be found by clicking this [link.](https://choosealicense.com/licenses/mit)
+
+## 🤝 [Contributing](#table-of-contents)
+We are open to all kinds of contributions. If you want to:
+* 🤔 Suggest a feature
+* 🐛 Report an issue
+* 📖 Improve documentation
+* 👨‍💻 Contribute to the code
+
+We are excited that you are reading this and are willing to contribute. No need to think big. Even a typo fix might save our day and make you a hero. Every contribution counts!
+     
+Feel free to check [issues page](https://github.com/VimukthiGunasekara/e-commerce-back-end/issues) 
+     
+## 🤔 [FAQs](#table-of-contents)
+Please contact me using the following links:
+
+[Semir Seper](https://github.com/seper56)
+<br>
+[Jaskirat Kaur](https://github.com/JASKIRAT29)
+<br>
+[Vimukthi Gunasekara](https://github.com/VimukthiGunasekara)
 
 
 
