@@ -1,7 +1,7 @@
-<div class="container card mb-4 post" style="margin-bottom: 15px;">
+<div class="container card mb-4 post postcard" style="margin-bottom: 15px;">
     <div class="row">
         <div class="col-4">
-            <img class="card-img" src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" alt="Card image"
+            <img class="card-img rounded" src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" alt="Card image"
                 style="width: 100%; height:auto;">
         </div>
         <div class="col-8">
@@ -11,6 +11,7 @@
             <p>{{format_date created_at}}</p>
             <a class="btn btn-primary" href="/post/{{id}}">Read more →</a>
             <div class="meta">
+
                 <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
             </div>
         </div>
