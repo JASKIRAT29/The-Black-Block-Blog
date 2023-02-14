@@ -14,9 +14,13 @@
 <body>
   <div class="wrapper">
     <header>
-      <h1 class="fw-bolder">
-        Travel Blog
-      </h1>
+      <div class="navbar navbar-expand-lg  text-left">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp" alt="logo"
+          style="width: 100px;">
+        <h1 class="fw-bolder text-left">
+          Travel Blog
+        </h1>
+      </div>
       <nav>
         <a href="/">Home</a>
         {{#if loggedIn}}
@@ -27,20 +31,9 @@
         {{/if}}
       </nav>
     </header>
+    
+
     <main>
-
-      <!-- Page header with logo and tagline-->
-      <header class="bg-light border-bottom mb-4">
-        <div class="container">
-          <div class="text-center my-5">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp" alt="logo" style="width: 185px;">
-            <h1 class="fw-bolder">BeWelcome - Travel The World!</h1>
-            <p class="lead mb-0">Make Unforgettable Memories</p>
-          </div>
-        </div>
-      </header>
-      
-
       <!-- Blog entries-->
       <div class="col-lg-12">
         {{{ body }}}
@@ -53,6 +46,7 @@
   </div>
 
 </body>
+
 </html>
 
 {{#if loggedIn}}
