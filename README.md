@@ -33,6 +33,10 @@ Github Page: https://github.com/JASKIRAT29/Travel-Blog
 
 ![Image](./public/images/screnshort.png)
 
+![Image](./public/images/steps.gif)
+
+## [Video Link](https://drive.google.com/file/d/1kXB8-2jWPZahupvLzWqKF7fFX2_MxTN4/view?usp=share_link)
+
 ## ⚙️ [Installation](#table-of-contents)
 Use your terminal to clone or download or copy the zip file to a directory of your choice. Then open the file in VS Code or whatever editor you use. In VS Code, open the terminal and navigate to e-commerce-back-end in the root directory. 
 ``` 
